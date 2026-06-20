@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import { CartCard } from "./CartCard"
 import { Checkout } from "./Checkout"
 import { useCart } from "../../../context"
-import { toast } from "react-toastify"
 
 export const CartList = () => {
 

@@ -31,5 +31,8 @@ export const filterReducer = (state, action) => {
         ratings: null
       }
     }
+
+    default: 
+      return {}
   }
 };
